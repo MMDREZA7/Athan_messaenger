@@ -1,4 +1,4 @@
-import 'package:athan_messager/pages/login_page.dart';
+import 'package:athan_messager/services/auth/login_or_register.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,12 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const LoginOrRegister(),
     );
   }
 }

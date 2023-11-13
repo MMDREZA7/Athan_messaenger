@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183517778188",
+    "project_id": "athancaht",
+    "storage_bucket": "athancaht.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183517778188:android:08f724258bfcaca864f929",
+        "android_client_info": {
+          "package_name": "com.example.athan_messager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvGOwGy3hiP2GRmfZ-td5LonXKXbeK_T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
